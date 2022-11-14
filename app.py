@@ -35,14 +35,7 @@ with st.container():
             st.write(
     """
     Build things
-    
-    
-    
-    
-    """
-   
-                
-                
+    """         
             )
             
             
@@ -73,5 +66,4 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
         with right_column:
             st.empty()
-            
-    
+        
