@@ -66,11 +66,11 @@ with st.container():
 with st.container():
     st.write("---")
     st.write("Checkout this app I built")
-    if st.button('Click me'):
-        st.write('https://jeromejjb-st-test-streamlit-app-fnk5ow.streamlit.app/')
-    else:
-        st.write('')
-    
+        st.write("""
+
+https://jeromejjb-st-test-streamlit-app-fnk5ow.streamlit.app/"""
+                )
+ 
     
     
 with st.container():
