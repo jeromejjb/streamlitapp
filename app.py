@@ -39,6 +39,20 @@ with st.container():
             )
             
             
+
+with st.container():
+        st.write("---")
+        left_column, right_column = st.columns(2)
+        with left_column:
+            st.header("Classes")
+            st.write("##")
+            st.write(
+    """
+   https://ocw.mit.edu/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/
+    """         
+            )
+            
+            
 # with right_column:
 #     st_lottie(lottie_coding, height=300, key="coding")
     
