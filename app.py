@@ -63,6 +63,15 @@ with st.container():
       st.write('Ciao')
     
     
+with st.container():
+    st.write("---")
+    st.write("Checkout this app I built")
+    if st.button('Click me'):
+        st.write('https://jeromejjb-st-test-streamlit-app-fnk5ow.streamlit.app/')
+    else:
+        st.write('')
+    
+    
     
 with st.container():
     st.write("---")
