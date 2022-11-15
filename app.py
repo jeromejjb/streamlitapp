@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="Jerome Brown", page_icon=":rocket:", layout="wide")
 
@@ -11,13 +11,13 @@ def load_lottieurl(url: str):
     return r.json()
 
 
-def local_css(file_name):
-    with open(file_name) as f: 
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+# def local_css(file_name):
+#     with open(file_name) as f: 
+#         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
 local_css("style/style.css")
 
-lottie_coding = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_vbhx85ve.json")
+# lottie_coding = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_vbhx85ve.json")
 
 
 with st.container():
