@@ -57,10 +57,10 @@ with st.container():
 #     st_lottie(lottie_coding, height=300, key="coding")
 with st.container():
     st.write("---")
-    if st.button('Say hello'):
+    if st.button('Click me'):
       st.write('Why hello there')
     else:
-      st.write('Goodbye')
+      st.write('Ciao')
     
     
     
